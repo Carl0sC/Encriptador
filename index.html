@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge encriptador</title>
+    <link rel="icon" href="./icons/icon.png">
+    </link>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <header>
+        <img src="./images//Logo.png" alt="icon">
+        <h3>Challenge encriptador</h3>
+    </header>
+    <main>
+        <div class="left">
+            <div id="have-animation"></div>
+            <textarea name="" id="writter" cols="30" rows="14" placeholder="write the text an encrypt"></textarea>
+            <div class="alert">
+                <img src="./icons/alert.svg" alt="alert" />
+                <p>Solo se procesan letras minusculas y sin acentos</p>
+            </div>
+            <div class="actions">
+                <button id="encrypt" class="encrypt">Encriptar!</button>
+                <button id="decrypt" class="dencrypt">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="copy">
+                <div id="have-animation-extra"></div>
+                <textarea name="" id="displayEncrypt" cols="30" disabled rows="15"></textarea>
+                <button id="copyText">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>Carrion C</li>
+            <li>
+                <a href="" target="_blank"><img src="./icons/github.svg" alt="github"></a>
+                <a href="" target="_blank"><img src="./icons/twitter.svg" alt="twiiter"></a>
+                <a href="" target="_blank"><img src="./icons/linkedin.svg" alt="linkedin"></a>
+            </li>
+        </ul>
+    </footer>
+    <div id="toastAlert">
+    </div>
+    <script type="module" src="./funcion.js"></script>
+</body>
+
+</html>
